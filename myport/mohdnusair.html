@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Nusair - Developer Portfolio</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Dark background */
+            color: #e2e8f0; /* Light text */
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .card {
+            background-color: #2d3748;
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .gradient-text {
+            background-image: linear-gradient(to right, #6366f1, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Header Section -->
+        <header class="text-center my-12">
+            <h1 class="text-5xl md:text-6xl font-bold gradient-text">Mohd Nusair</h1>
+            <p class="text-xl md:text-2xl mt-2 font-semibold">JavaScript Developer</p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8 mt-4 text-gray-400">
+                <span>Kanpur</span>
+                <span><a href="mailto:mohdnusair791@gmail.com" class="hover:underline">mohdnusair791@gmail.com</a></span>
+                <span><a href="https://www.linkedin.com/in/mohd-nusair" target="_blank" class="hover:underline">LinkedIn: Mohd Nusair</a></span>
+                <span>+91-8604262149</span>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <main class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Left Column -->
+            <div class="md:col-span-2 space-y-8">
+                <!-- Summary Section -->
+                <section class="card">
+                    <h2 class="text-3xl font-bold mb-4">Summary</h2>
+                    <p class="text-lg">
+                        Highly motivated JavaScript Developer with experience building scalable full-stack applications
+                        using Node.js and React. Proficient in developing RESTful APIs and integrating JavaScript-based
+                        AI solutions. A quick learner with strong debugging and problem-solving abilities, and a track
+                        record of collaborating effectively on academic and personal projects.
+                    </p>
+                </section>
+
+                <!-- Projects Section -->
+                <section class="card">
+                    <h2 class="text-3xl font-bold mb-6">Projects</h2>
+                    <div class="space-y-6">
+                        <!-- Project 1: Word Hive -->
+                        <div class="bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                            <h3 class="text-2xl font-semibold gradient-text">Word Hive</h3>
+                            <p class="text-sm text-gray-400 mt-1 mb-4">Aug 2024 - Oct 2024</p>
+                            <p>Word Hive transforms book shopping through a streamlined digital marketplace. It's built using
+                                HTML, CSS, and JavaScript for fast, secure, user-friendly access. Features include tailored
+                                recommendations and intuitive browsing. Its mission: connecting and empowering readers and
+                                authors globally.
+                            </p>
+                            <div class="mt-4 flex flex-wrap gap-4">
+                                <a href="#" class="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-colors duration-200">
+                                    Live Demo
+                                </a>
+                                <a href="#" class="px-6 py-2 bg-gray-600 text-gray-200 font-semibold rounded-full hover:bg-gray-700 transition-colors duration-200">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Project 2: Weather Web Application -->
+                        <div class="bg-gray-800 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                            <h3 class="text-2xl font-semibold gradient-text">Weather Web Application</h3>
+                            <p class="text-sm text-gray-400 mt-1 mb-4">Aug 2023 - Oct 2023</p>
+                            <p>Developed a Weather Web Application providing real-time updates using HTML, CSS, and
+                                JavaScript. Integrated backend APIs for accurate data retrieval and utilized databases for storing
+                                user preferences and historical data. Showcased web development skills and the significance of
+                                APIs and databases in creating dynamic, interactive applications.
+                            </p>
+                            <div class="mt-4 flex flex-wrap gap-4">
+                                <a href="#" class="px-6 py-2 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-colors duration-200">
+                                    Live Demo
+                                </a>
+                                <a href="#" class="px-6 py-2 bg-gray-600 text-gray-200 font-semibold rounded-full hover:bg-gray-700 transition-colors duration-200">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section class="card">
+                    <h2 class="text-3xl font-bold mb-4">Experience</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold">Project Engineer <span class="text-gray-400">(Academic Role)</span></h3>
+                            <p class="mt-1">
+                                Served as a backend developer for two academic initiatives: an e-commerce platform for book
+                                listings and a weather forecasting application.
+                            </p>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
+                                <li>Developed RESTful APIs using Node.js and integrated them smoothly with React-based front-end interfaces.</li>
+                                <li>Focused on backend logic, database management, and maintaining reliable client-server communication.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="md:col-span-1 space-y-8">
+                <!-- Skills Section -->
+                <section class="card">
+                    <h2 class="text-3xl font-bold mb-4">Skills</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-purple-400">Technical Skills</h3>
+                            <p class="mt-2 text-gray-300">Java, Python, C, Web Development, HTML, CSS, JavaScript, SQL, Web Services, REST APIs, Postman</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-purple-400">Professional Skills</h3>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
+                                <li>Design Understanding</li>
+                                <li>Team Collaboration</li>
+                                <li>Problem Solving</li>
+                                <li>Visual Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section class="card">
+                    <h2 class="text-3xl font-bold mb-4">Education</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold">Bachelor of Technology in Computer Science and Engineering (Data Science)</h3>
+                            <p class="text-gray-400">Pranveer Singh Institute of Technology, Kanpur</p>
+                            <p class="text-gray-400">Dec 2022 - July 2026</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold">Class 12th | Intermediate | CISCE</h3>
+                            <p class="text-gray-400">St. Aloysius High School, Kanpur</p>
+                            <p class="text-gray-400">2020</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold">Class 10th High School | CISCE</h3>
+                            <p class="text-gray-400">St. Aloysius High School, Kanpur</p>
+                            <p class="text-gray-400">2018</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Additional Info Section -->
+                <section class="card">
+                    <h2 class="text-3xl font-bold mb-4">Additional Information</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-purple-400">Certifications</h3>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
+                                <li>Salesforce AI with Agent force Champion course</li>
+                                <li>Accenture Nordics - Software Engineering</li>
+                                <li>AWS APAC - Solution Architecture Job Simulation</li>
+                                <li>Deloitte CYBER</li>
+                                <li>Data Analyst, One Roadmap</li>
+                                <li>HTML5 - The Language, INFOSYS SPRINGBOARD</li>
+                                <li>CSS3, INFOSYS SPRINGBOARD</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
